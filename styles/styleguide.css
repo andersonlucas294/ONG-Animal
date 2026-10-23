@@ -1,0 +1,23 @@
+:root {
+  --cole-o-1-secundaria: rgba(31, 41, 55, 1);
+  --cole-o-1-fundo: rgba(240, 250, 246, 1);
+  --cole-o-1-primaria: rgba(16, 185, 129, 1);
+  --cole-o-1-texto-claro: rgba(249, 250, 251, 1);
+  --cole-o-1-texto-card: rgba(51, 51, 51, 1);
+}
+
+[data-cole-o-1-mode="mode-1"] {
+  --cole-o-1-secundaria: rgba(31, 41, 55, 1);
+  --cole-o-1-fundo: rgba(240, 250, 246, 1);
+  --cole-o-1-primaria: rgba(16, 185, 129, 1);
+  --cole-o-1-texto-claro: rgba(249, 250, 251, 1);
+  --cole-o-1-texto-card: rgba(51, 51, 51, 1);
+}
+
+[data-cole-o-1-mode="mode-2"] {
+  --cole-o-1-secundaria: rgba(255, 255, 255, 1);
+  --cole-o-1-fundo: rgba(255, 255, 255, 1);
+  --cole-o-1-primaria: rgba(255, 255, 255, 1);
+  --cole-o-1-texto-claro: rgba(255, 255, 255, 1);
+  --cole-o-1-texto-card: rgba(255, 255, 255, 1);
+}
