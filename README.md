@@ -1,1 +1,52 @@
-# ONG-Animal
+````markdown
+# 🚀 Projeto Integrador — Curso Superior de Tecnologia em Sistemas para Internet
+
+![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-blue)
+![Ano Inicial](https://img.shields.io/badge/Ano_Inicial-2026-green)
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-orange)
+
+## 📌 Sobre o Projeto
+Este repositório armazena a evolução do **Projeto Integrador** dos alunos do curso de Tecnologia em Sistemas para Internet. O projeto é incremental e se desenvolverá ao longo de três anos (**2026, 2027 e 2028**), organizando os artefatos e códigos por disciplina dentro do seu respectivo ano letivo.
+
+---
+
+## 🔗 Links Úteis
+* **🌐 Aplicação em Produção (Deploy):** [Inserir Link do Deploy aqui - ex: GitHub Pages/Vercel]
+* **🎨 Protótipo no Figma:** [Inserir Link do Figma/Penpot]
+* **📋 Painel de Tarefas (GitHub Projects):** [Link para a aba Projects/Issues]
+
+---
+
+## 👥 Equipe de Desenvolvimento
+
+| Foto | Nome | GitHub | Função / Contribuição |
+| :---: | :--- | :--- | :--- |
+| <img src="https://github.com/github.png" width="50"> | **Nome do Aluno 1** | [@username](https://github.com/) | Scrum Master / Dev Frontend |
+| <img src="https://github.com/github.png" width="50"> | **Nome do Aluno 2** | [@username](https://github.com/) | Designer UI/UX |
+| <img src="https://github.com/github.png" width="50"> | **Nome do Aluno 3** | [@username](https://github.com/) | Desenvolvedor Lógica/JS |
+| <img src="https://github.com/github.png" width="50"> | **Nome do Aluno 4** | [@username](https://github.com/) | Infraestrutura e Redes |
+
+---
+
+## 📂 Estrutura do Repositório
+
+```text
+/
+├── 2026/                                # Disciplinas do 1º Ano
+│   ├── desenvolvimento-web/            # HTML5, CSS3, mídias e validações W3C
+│   ├── algoritmos-logica/              # Lógica de programação, scripts JS e fluxogramas
+│   ├── redes-internet/                  # Análise de protocolos, relatórios e deploy
+│   └── ui-ux/                           # Personas, wireframes, usabilidade e acessibilidade
+├── 2027/                                # Disciplinas do 2º Ano (Futuro)
+├── 2028/                                # Disciplinas do 3º Ano (Futuro)
+└── README.md                            # Documentação principal
+````
+
+---
+
+## 🛠️ Tecnologias e Ferramentas (2026)
+
+* **UI/UX:** Figma, Penpot, Checklists WCAG.
+* **Desenvolvimento Web I:** HTML5 Semântico, CSS3 (Flexbox/Grid), W3C Validator.
+* **Algoritmos e Lógica:** JavaScript (ES6+), Fluxogramas (Draw.io/Mermaid).
+* **Redes e Internet:** Chrome DevTools (Network), GitHub Pages/Vercel, Protocolos HTTP/HTTPS.
