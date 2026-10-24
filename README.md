@@ -28,18 +28,6 @@ Este repositório armazena a evolução do **Projeto Integrador** dos alunos do 
 
 ---
 
-## 📂 Estrutura do Repositório
-
-```text
-/
-├── 2026/                                # Disciplinas do 1º Ano
-│   ├── desenvolvimento-web/            # HTML5, CSS3, mídias e validações W3C
-│   ├── algoritmos-logica/              # Lógica de programação, scripts JS e fluxogramas
-│   ├── redes-internet/                  # Análise de protocolos, relatórios e deploy
-│   └── ui-ux/                           # Personas, wireframes, usabilidade e acessibilidade
-├── 2027/                                # Disciplinas do 2º Ano (Futuro)
-├── 2028/                                # Disciplinas do 3º Ano (Futuro)
-└── README.md                            # Documentação principal
 ````
 
 ---
