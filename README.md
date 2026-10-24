@@ -11,7 +11,7 @@ Este repositório armazena a evolução do **Projeto Integrador** dos alunos do 
 ---
 
 ## 🔗 Links Úteis
-* **🌐 Aplicação em Produção (Deploy): [https://projetointegradorsi.github.io/ONG-Animal/]
+* **🌐 Aplicação em Produção (Deploy): https://projetointegradorsi.github.io/ONG-Animal/
 * **🎨 Protótipo no Figma:** [Inserir Link do Figma/Penpot]
 * **📋 Painel de Tarefas (GitHub Projects):** [Link para a aba Projects/Issues]
 
