@@ -19,9 +19,6 @@ Este repositório armazena a evolução do **Projeto Integrador** dos alunos do 
 ## 👥 Equipe de Desenvolvimento
 
 | Foto | Nome | GitHub | Função / Contribuição |
-| :---: | :--- | :--- | :--- |
-| Foto | Nome | GitHub | Função / Contribuição |
-| :---: | :--- | :--- | :--- |
 | <img src="https://wsrv.nl/?url=https://github.com/MateusPires11.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Mateus De Oliveira Pires** | [@MateusPires11](https://github.com/MateusPires11) | Scrum Master / Dev Frontend |
 | <img src="https://wsrv.nl/?url=https://github.com/andersonlucas294.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Anderson Lucas** | [@andersonlucas294](https://github.com/andersonlucas294) | Desenvolvedor Lógica/JS |
 | <img src="https://wsrv.nl/?url=https://github.com/LuisHenrique676.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Luis Henrique** | [@LuisHenrique676](https://github.com/LuisHenrique676) | Designer UI/UX |
