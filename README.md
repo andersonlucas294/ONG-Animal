@@ -1,4 +1,3 @@
-````markdown
 # 🚀 Projeto Integrador — Curso Superior de Tecnologia em Sistemas para Internet
 
 ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-blue)
@@ -26,15 +25,4 @@ Este repositório armazena a evolução do **Projeto Integrador** dos alunos do 
 | <img src="https://github.com/github.png" width="50"> | **Nome do Aluno 3** | [@username](https://github.com/) | Desenvolvedor Lógica/JS |
 | <img src="https://github.com/github.png" width="50"> | **Nome do Aluno 4** | [@username](https://github.com/) | Infraestrutura e Redes |
 
----
 
-````
-
----
-
-## 🛠️ Tecnologias e Ferramentas (2026)
-
-* **UI/UX:** Figma, Penpot, Checklists WCAG.
-* **Desenvolvimento Web I:** HTML5 Semântico, CSS3 (Flexbox/Grid), W3C Validator.
-* **Algoritmos e Lógica:** JavaScript (ES6+), Fluxogramas (Draw.io/Mermaid).
-* **Redes e Internet:** Chrome DevTools (Network), GitHub Pages/Vercel, Protocolos HTTP/HTTPS.
