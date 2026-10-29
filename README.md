@@ -1,4 +1,3 @@
-````markdown
 # 🚀 Projeto Integrador — Curso Superior de Tecnologia em Sistemas para Internet
 
 ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-blue)
@@ -11,9 +10,8 @@ Este repositório armazena a evolução do **Projeto Integrador** dos alunos do 
 ---
 
 ## 🔗 Links Úteis
-* **🌐 Aplicação em Produção (Deploy):** [Inserir Link do Deploy aqui - ex: GitHub Pages/Vercel]
-* **🎨 Protótipo no Figma:** [Inserir Link do Figma/Penpot]
-* **📋 Painel de Tarefas (GitHub Projects):** [Link para a aba Projects/Issues]
+* **🌐 Aplicação em Produção (Deploy):** [projetointegradorsi.github.io/ONG-Animal](https://projetointegradorsi.github.io/ONG-Animal/)
+* **🎨 Protótipo no Figma:** [Figma](https://www.figma.com/design/c1eJU1BHgjMGCrA4goyZNI/Projeto-Integrador?node-id=0-1&t=WjAuziLAYwz8NAwe-1)
 
 ---
 
@@ -21,32 +19,10 @@ Este repositório armazena a evolução do **Projeto Integrador** dos alunos do 
 
 | Foto | Nome | GitHub | Função / Contribuição |
 | :---: | :--- | :--- | :--- |
-| <img src="https://github.com/github.png" width="50"> | **Nome do Aluno 1** | [@username](https://github.com/) | Scrum Master / Dev Frontend |
-| <img src="https://github.com/github.png" width="50"> | **Nome do Aluno 2** | [@username](https://github.com/) | Designer UI/UX |
-| <img src="https://github.com/github.png" width="50"> | **Nome do Aluno 3** | [@username](https://github.com/) | Desenvolvedor Lógica/JS |
-| <img src="https://github.com/github.png" width="50"> | **Nome do Aluno 4** | [@username](https://github.com/) | Infraestrutura e Redes |
+| <img src="https://wsrv.nl/?url=https://github.com/MateusPires11.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Mateus De Oliveira Pires** | [@MateusPires11](https://github.com/MateusPires11) | Scrum Master / Dev Frontend |
+| <img src="https://wsrv.nl/?url=https://github.com/andersonlucas294.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Anderson Lucas** | [@andersonlucas294](https://github.com/andersonlucas294) | Desenvolvedor Lógica/JS |
+| <img src="https://wsrv.nl/?url=https://github.com/LuisHenrique676.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Luis Henrique** | [@LuisHenrique676](https://github.com/LuisHenrique676) | Designer UI/UX |
+| <img src="https://wsrv.nl/?url=https://github.com/murillobfranca10.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Murillo Franca** | [@murillobfranca10](https://github.com/murillobfranca10) | Infraestrutura e Redes |
+| <img src="https://wsrv.nl/?url=https://github.com/raphael2222226869.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Rafa Amorim** | [@raphael2222226869](https://github.com/raphael2222226869) | QA / Testes: testa o site |
 
----
 
-## 📂 Estrutura do Repositório
-
-```text
-/
-├── 2026/                                # Disciplinas do 1º Ano
-│   ├── desenvolvimento-web/            # HTML5, CSS3, mídias e validações W3C
-│   ├── algoritmos-logica/              # Lógica de programação, scripts JS e fluxogramas
-│   ├── redes-internet/                  # Análise de protocolos, relatórios e deploy
-│   └── ui-ux/                           # Personas, wireframes, usabilidade e acessibilidade
-├── 2027/                                # Disciplinas do 2º Ano (Futuro)
-├── 2028/                                # Disciplinas do 3º Ano (Futuro)
-└── README.md                            # Documentação principal
-````
-
----
-
-## 🛠️ Tecnologias e Ferramentas (2026)
-
-* **UI/UX:** Figma, Penpot, Checklists WCAG.
-* **Desenvolvimento Web I:** HTML5 Semântico, CSS3 (Flexbox/Grid), W3C Validator.
-* **Algoritmos e Lógica:** JavaScript (ES6+), Fluxogramas (Draw.io/Mermaid).
-* **Redes e Internet:** Chrome DevTools (Network), GitHub Pages/Vercel, Protocolos HTTP/HTTPS.
