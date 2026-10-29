@@ -4,41 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Adoção Lins</title>
 </head>
 
 <body>
     <header>
-        <h1>
+        <div class="logo-wrapper">
             <a href="./index.html">
-                <img src="./img/home/Logo.png" alt="logo adoção lins">
-                <h3>ADOÇÂO LINS</h3>
+                <img src="./img/home/Logo.png" alt="logo adoção lins" class="logo">
+                <span class="site-name">ADOÇÃO LINS</span>
             </a>
-        </h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="./index.html">Início</a></li>
                 <li><a href="./pages/animais.html">Animais</a></li>
                 <li><a href="./pages/sobre-contato.html">Sobre/Contato</a></li>
             </ul>
-            <button>
-                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M19.7427 20.075L25.5167 26.0104M22.8482 12.3935C22.8482 18.4098 18.0692 23.287 12.1741 23.287C6.27894 23.287 1.5 18.4098 1.5 12.3935C1.5 6.37718 6.27894 1.5 12.1741 1.5C18.0692 1.5 22.8482 6.37718 22.8482 12.3935Z"
-                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke="#F9FAFB" />
-                </svg>
-            </button>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar">
+                <button>
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19.7427 20.075L25.5167 26.0104M22.8482 12.3935C22.8482 18.4098 18.0692 23.287 12.1741 23.287C6.27894 23.287 1.5 18.4098 1.5 12.3935C1.5 6.37718 6.27894 1.5 12.1741 1.5C18.0692 1.5 22.8482 6.37718 22.8482 12.3935Z"
+                            stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke="#F9FAFB" />
+                    </svg>
+                </button>
+            </div>
+
         </nav>
     </header>
 
     <main>
         <article>
             <section class="hero">
-                <h1>DÊ UMA NOVA
-                    CHANCE DE VIDA!</h1>
-                <h3>Na nossa ONG, acreditamos que todo animal merece um lar seguro, cheio de amor e cuidado.</h3>
-                <button>Conheça nossos animais</button>
-                <img src="./img/home/fotohero.png">
+                <div class="hero-text">
+                    <h1>DÊ UMA NOVA
+                        CHANCE DE VIDA!</h1>
+                    <h3>Na nossa ONG, acreditamos que todo animal merece um lar seguro, cheio de amor e cuidado.</h3>
+                    <button>Conheça nossos animais</button>
+                </div>
+                <div class="hero-image">
+                    <img src="./img/home/fotohero.png">
+                </div>
             </section>
             <section class="destaques">
                 <div class="Resgate&cuidado">
@@ -119,12 +128,12 @@
             </aside>
         </article>
         <footer>
-            <h1>
+            <div class="logo-wrapper">
                 <a href="./index.html">
-                    <img src="./img/home/Logo.png" alt="logo adoção lins">
-                    <h3>ADOÇÂO LINS</h3>
+                    <img src="./img/home/Logo.png" alt="logo adoção lins" class="logo">
+                    <span class="site-name">ADOÇÃO LINS</span>
                 </a>
-            </h1>
+            </div>
             <nav>
                 <ul>
                     <li><a href="./index.html">Início</a></li>
@@ -142,4 +151,5 @@
     </main>
 </body>
 <script src="./scripts/scripts.js"></script>
+
 </html>

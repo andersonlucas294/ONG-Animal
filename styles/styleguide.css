@@ -1,23 +1,27 @@
 :root {
-  --cole-o-1-secundaria: rgba(31, 41, 55, 1);
-  --cole-o-1-fundo: rgba(240, 250, 246, 1);
-  --cole-o-1-primaria: rgba(16, 185, 129, 1);
-  --cole-o-1-texto-claro: rgba(249, 250, 251, 1);
-  --cole-o-1-texto-card: rgba(51, 51, 51, 1);
-}
+  --secundaria: rgba(31, 41, 55, 1);
+  --fundo: #F0FAF6;
+  --primaria: #FA579B;
+  --texto-claro: #F9FAFB;
+  --texto-card: #333333;
 
-[data-cole-o-1-mode="mode-1"] {
-  --cole-o-1-secundaria: rgba(31, 41, 55, 1);
-  --cole-o-1-fundo: rgba(240, 250, 246, 1);
-  --cole-o-1-primaria: rgba(16, 185, 129, 1);
-  --cole-o-1-texto-claro: rgba(249, 250, 251, 1);
-  --cole-o-1-texto-card: rgba(51, 51, 51, 1);
-}
+  --text-hero: 2.5rem;
+  /* 40px — destaque home / "Dê uma nova chance..." */
+  --text-h1: 2.25rem;
+  /* 36px — H1 da página / nome do cachorro */
+  --text-h2: 1.5rem;
+  /* 24px — títulos de seção */
+  --text-h3: 1.25rem;
+  /* 20px — subtítulo / "Quero adotar!" */
 
-[data-cole-o-1-mode="mode-2"] {
-  --cole-o-1-secundaria: rgba(255, 255, 255, 1);
-  --cole-o-1-fundo: rgba(255, 255, 255, 1);
-  --cole-o-1-primaria: rgba(255, 255, 255, 1);
-  --cole-o-1-texto-claro: rgba(255, 255, 255, 1);
-  --cole-o-1-texto-card: rgba(255, 255, 255, 1);
+  /* Componentes */
+  --text-card-title: 1.125rem;
+  /* 18px — título dos cards / "Informações de Contato" */
+  --text-body: 1rem;
+  /* 16px — parágrafos / nome animal / descrição cachorro / títulos benefícios */
+  --text-sm: 0.875rem;
+  /* 14px — botões / links menu / descrição benefícios / etiquetas / ONG / abas */
+  --text-xs: 0.75rem;
+  /* 12px — rodapé / legendas / info secundárias / filtros / descrição animal home */
+
 }
