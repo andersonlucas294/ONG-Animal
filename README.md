@@ -21,11 +21,11 @@ Confira a quantidade de commits realizados por cada integrante no projeto.
 <!-- COMMITS-START -->
 | Integrante | GitHub | Total de commits |
 | :--- | :---: | :---: |
-| Mateus De Oliveira Pires | [@MateusPires11](https://github.com/MateusPires11) | Atualizando... |
-| Anderson Lucas | [@andersonlucas294](https://github.com/andersonlucas294) | Atualizando... |
-| Luis Henrique | [@LuisHenrique676](https://github.com/LuisHenrique676) | Atualizando... |
-| Murillo Franca | [@murillobfranca10](https://github.com/murillobfranca10) | Atualizando... |
-| Rafa Amorim | [@raphael2222226869](https://github.com/raphael2222226869) | Atualizando... |
+| Mateus De Oliveira Pires | [@MateusPires11](https://github.com/MateusPires11) | **27** |
+| Anderson Lucas | [@andersonlucas294](https://github.com/andersonlucas294) | **2** |
+| Luis Henrique | [@LuisHenrique676](https://github.com/LuisHenrique676) | **0** |
+| Murillo Franca | [@murillobfranca10](https://github.com/murillobfranca10) | **0** |
+| Rafa Amorim | [@raphael2222226869](https://github.com/raphael2222226869) | **0** |
 <!-- COMMITS-END -->
 
 *Estatísticas atualizadas automaticamente pelo GitHub Actions.*
