@@ -1,0 +1,122 @@
+name: Atualizar Estatísticas de Commits
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar-commits:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Atualizar estatísticas
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require("fs");
+
+            const integrantes = [
+              {
+                nome: "Mateus De Oliveira Pires",
+                usuario: "MateusPires11"
+              },
+              {
+                nome: "Anderson Lucas",
+                usuario: "andersonlucas294"
+              },
+              {
+                nome: "Luis Henrique",
+                usuario: "LuisHenrique676"
+              },
+              {
+                nome: "Murillo Franca",
+                usuario: "murillobfranca10"
+              },
+              {
+                nome: "Rafa Amorim",
+                usuario: "raphael2222226869"
+              }
+            ];
+
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const tabela = [
+              "| Integrante | GitHub | Total de commits |",
+              "| :--- | :---: | :---: |"
+            ];
+
+            for (const integrante of integrantes) {
+              let total = 0;
+              let pagina = 1;
+
+              while (true) {
+                const resposta = await github.rest.repos.listCommits({
+                  owner,
+                  repo,
+                  author: integrante.usuario,
+                  per_page: 100,
+                  page: pagina
+                });
+
+                total += resposta.data.length;
+
+                if (resposta.data.length < 100) {
+                  break;
+                }
+
+                pagina++;
+              }
+
+              tabela.push(
+                `| ${integrante.nome} | [@${integrante.usuario}](https://github.com/${integrante.usuario}) | **${total}** |`
+              );
+            }
+
+            const inicio = "<!-- COMMITS-START -->";
+            const fim = "<!-- COMMITS-END -->";
+
+            const readme = fs.readFileSync("README.md", "utf8");
+
+            if (!readme.includes(inicio) || !readme.includes(fim)) {
+              throw new Error(
+                "Adicione os marcadores COMMITS-START e COMMITS-END ao README.md."
+              );
+            }
+
+            const novaSecao =
+              `${inicio}\n${tabela.join("\n")}\n${fim}`;
+
+            const atualizado = readme.replace(
+              /<!-- COMMITS-START -->[\s\S]*?<!-- COMMITS-END -->/,
+              novaSecao
+            );
+
+            fs.writeFileSync("README.md", atualizado);
+      - name: Salvar alterações no README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "As estatísticas já estão atualizadas."
+            exit 0
+          fi
+
+          git commit -m "docs: atualizar estatísticas de commits"
+          git push
