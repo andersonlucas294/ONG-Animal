@@ -16,16 +16,12 @@ Este repositório armazena a evolução do **Projeto Integrador** dos alunos do 
 ---
 ## 📊 Estatísticas de Contribuição
 
-Confira a quantidade de commits realizados por cada integrante no projeto.
+Confira as contribuições de cada integrante no projeto.
 
 <!-- COMMITS-START -->
-| Integrante | GitHub | Total de commits |
-| :--- | :---: | :---: |
-| Mateus De Oliveira Pires | [@MateusPires11](https://github.com/MateusPires11) | **27** |
-| Anderson Lucas | [@andersonlucas294](https://github.com/andersonlucas294) | **2** |
-| Luis Henrique | [@LuisHenrique676](https://github.com/LuisHenrique676) | **0** |
-| Murillo Franca | [@murillobfranca10](https://github.com/murillobfranca10) | **0** |
-| Rafa Amorim | [@raphael2222226869](https://github.com/raphael2222226869) | **0** |
+| Integrante | Commits | Arquivos únicos | Alterações em arquivos | Linhas adicionadas | Linhas removidas |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| Aguardando atualização automática | - | - | - | - | - |
 <!-- COMMITS-END -->
 
 *Estatísticas atualizadas automaticamente pelo GitHub Actions.*
