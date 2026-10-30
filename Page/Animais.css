@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #111622;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+
+.browser-container {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #edf4f2;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* --- HEADER / NAVBAR --- */
+header {
+    background-color: #111622;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.logo i {
+    color: #ff4081;
+    font-size: 1.3rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #b0bec5;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: white;
+}
+
+.search-icon-btn {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+/* --- BANNER ROSA --- */
+.hero-banner {
+    background-color: #ec407a;
+    color: white;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-banner i {
+    font-size: 2.5rem;
+}
+
+.hero-content h1 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.hero-content p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+/* --- CONTEÚDO PRINCIPAL --- */
+main {
+    padding: 30px 40px;
+}
+
+/* Filtros */
+.filter-bar {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 10px 15px;
+    padding-right: 40px;
+    border: 1px solid #b2dfdb;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+.search-wrapper i {
+    position: absolute;
+    right: 15px;
+    color: #757575;
+}
+
+.filter-bar select {
+    padding: 10px 15px;
+    border: 1px solid #b2dfdb;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 0.9rem;
+    color: #424242;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Grid de Animais */
+.animals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.animal-card {
+    background-color: #e0ece8;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 140px;
+    background-color: #37474f;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.animal-info h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.animal-info p {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn-adopt {
+    width: 100%;
+    background-color: #ec407a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: background 0.3s;
+}
+
+.btn-adopt:hover {
+    background-color: #d81b60;
+}
+
+/* --- FOOTER / AVISO --- */
+.footer-banner {
+    background-color: #d3e2dc;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.footer-left i {
+    color: #424242;
+    font-size: 1.2rem;
+    margin-top: 3px;
+}
+
+.footer-text h4 {
+    font-size: 0.95rem;
+    color: #212121;
+    margin-bottom: 4px;
+}
+
+.footer-text p {
+    font-size: 0.8rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+.btn-more {
+    background-color: #111622;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.3s;
+}
+
+.btn-more:hover {
+    background-color: #232d44;
+}
+
+/* Responsividade Básica */
+@media (max-width: 768px) {
+    .filter-bar {
+        grid-template-columns: 1fr;
+    }
+    .animals-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-banner {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+    .btn-more {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .animals-grid {
+        grid-template-columns: 1fr;
+    }
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+.Animais2{
+    width: 50px;
+    height: 50px;
+    margin-right: 29px;
+}
