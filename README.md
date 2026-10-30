@@ -14,6 +14,21 @@ Este repositório armazena a evolução do **Projeto Integrador** dos alunos do 
 * **🎨 Protótipo no Figma:** [Figma](https://www.figma.com/design/c1eJU1BHgjMGCrA4goyZNI/Projeto-Integrador?node-id=0-1&t=WjAuziLAYwz8NAwe-1)
 
 ---
+## 📊 Estatísticas de Contribuição
+
+Confira a quantidade de commits realizados por cada integrante no projeto.
+
+<!-- COMMITS-START -->
+| Integrante | GitHub | Total de commits |
+| :--- | :---: | :---: |
+| Mateus De Oliveira Pires | [@MateusPires11](https://github.com/MateusPires11) | Atualizando... |
+| Anderson Lucas | [@andersonlucas294](https://github.com/andersonlucas294) | Atualizando... |
+| Luis Henrique | [@LuisHenrique676](https://github.com/LuisHenrique676) | Atualizando... |
+| Murillo Franca | [@murillobfranca10](https://github.com/murillobfranca10) | Atualizando... |
+| Rafa Amorim | [@raphael2222226869](https://github.com/raphael2222226869) | Atualizando... |
+<!-- COMMITS-END -->
+
+*Estatísticas atualizadas automaticamente pelo GitHub Actions.*
 
 ## 👥 Equipe de Desenvolvimento
 
