@@ -1,4 +1,4 @@
-@import'./styleguide.css';
+@import './styleguide.css';
 @import './global.css';
 
 body {
@@ -6,6 +6,7 @@ body {
   background-color: var(--fundo);
 }
 
+/* ── header ── */
 header {
   background-color: var(--secundaria);
   width: 100%;
@@ -27,12 +28,24 @@ header {
   text-decoration: none;
 }
 
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 29px;
+}
+
+.site-name {
+  display: inline;
+  font-size: var(--text-h3);
+  font-weight: bold;
+  width: 100%;
+}
+
 nav {
   flex: 2;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 nav ul {
@@ -41,6 +54,18 @@ nav ul {
   gap: 24px;
   margin: 0;
   padding: 0;
+}
+
+nav ul li a {
+  color: var(--texto-claro);
+  text-decoration: none;
+  font-size: var(--text-h3);
+  font-weight: bold;
+}
+
+nav ul li a.ativo {
+  border-bottom: 2px solid var(--primaria);
+  padding-bottom: 4px;
 }
 
 nav button {
@@ -53,12 +78,13 @@ nav button {
   height: 40px;
 }
 
-nav ul li a {
-  color: var(--texto-claro);
-  text-decoration: none;
-  font-size: var(--text-h3);
-  font-weight: bold;
-  text-decoration: none;
+.search-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 80px;
 }
 
 input {
@@ -70,46 +96,18 @@ input {
   margin-right: 10px;
 }
 
-input ::placeholder {
+input::placeholder {
   color: var(--texto-claro);
   font-size: var(--text-h3);
   padding-left: 10px;
 }
 
-.search-bar {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 10px;
-  margin-right: 80px;
+/* ── article ── */
+article {
+  margin: 0 80px;
 }
 
-.site-name {
-  display: inline;
-  font-size: var(--text-h3);
-  font-weight: bold;
-  width: 100%;
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-
-  margin-right: 29px;
-}
-
-
-nav ul li a.ativo {
-  border-bottom: 2px solid var(--primaria);
-  padding-bottom: 4px;
-}
-
-
-
-/*-----------------------------------header------------------------------------------------------------------------*/
-/*-----------------------------------hero------------------------------------------------------------------------*/
-
+/* ── hero ── */
 .hero {
   display: flex;
   align-items: center;
@@ -119,7 +117,6 @@ nav ul li a.ativo {
 }
 
 .hero-text {
-  margin-left: 80px;
   width: 676px;
 }
 
@@ -150,22 +147,16 @@ nav ul li a.ativo {
   align-items: center;
   justify-content: flex-end;
   width: 603px;
-  margin-right: 80px;
 }
 
 .hero-image img {
   width: 365px;
   height: 341px;
-
 }
 
-/*-----------------------------------destaques------------------------------------------------------------------------*/
+/* ── animais destaque ── */
 .animais-destaque {
-
-
-
-  margin: 90px 80px;
-  gap: 300px;
+  margin: 90px 0;
 }
 
 .animais-destaque nav {
@@ -178,16 +169,13 @@ nav ul li a.ativo {
 .animais-destaque nav h2 {
   display: flex;
   align-items: baseline;
-  justify-content: left;
   font-size: var(--text-h3);
   font-weight: bold;
-
 }
 
 .ver-todos a {
   display: flex;
   align-items: center;
-  justify-content: left;
   font-size: var(--text-h3);
   color: var(--primaria);
   font-weight: bold;
@@ -195,17 +183,14 @@ nav ul li a.ativo {
   gap: 10px;
 }
 
-/*------------------------------------animais de destaque------------------------------------------------------------------------*/
-
 .animais {
   display: flex;
   flex-direction: row;
   gap: 17px;
-
 }
 
+/* ── cards ── */
 .cardsanimal {
-
   border: 1px solid var(--secundaria);
   border-radius: 10px;
   background-color: var(--cards);
@@ -217,10 +202,11 @@ nav ul li a.ativo {
   width: 100%;
   height: 200px;
   object-fit: cover;
+  object-position: center;
   margin-bottom: 15px;
   border-radius: 9px;
-  object-position: center;
 }
+
 .cardsanimal h3 {
   font-size: var(--text-h3);
   font-weight: bold;
@@ -229,12 +215,14 @@ nav ul li a.ativo {
   align-items: center;
   justify-content: center;
 }
+
 .cardsanimal p {
   font-size: var(--text-h3);
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .cardsanimal button {
   width: 100%;
   display: flex;
@@ -249,4 +237,100 @@ nav ul li a.ativo {
   font-size: var(--text-h3);
   font-weight: bold;
   cursor: pointer;
+}
+
+/* ── banner ── */
+.aside-wrapper {
+  margin: 90px 0;
+}
+
+aside {
+  background-color: var(--cards);
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 53px;
+  box-sizing: border-box;
+}
+aside h2 {
+  font-size: var(--text-h2);
+  font-weight: bold;
+}
+aside p {
+  font-size: var(--text-p);
+  font-weight: 400;
+}
+
+.aside-image {
+  width: 40px;
+  height: 40px;
+}
+
+.aside-text {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-left: 23px;
+}
+.aside-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+aside button {
+  background-color: var(--secundaria);
+  color: var(--texto-claro);
+  border: 1px solid var(--secundaria);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: var(--text-h3);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* ── footer ── */
+footer {
+  position: relative;
+  margin-top: 90px;
+  background-color: var(--secundaria);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer-nav p {
+  color: var(--texto-claro);
+  font-size: var(--text-P);
+  font-weight:400;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-right: 80px;
+}
+.social-media li a img {
+  width: 30px;
+  height: 30px;
+}
+#whatsapp img {
+  width: 35px;
+  height: 35px;
 }
