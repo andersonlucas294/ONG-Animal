@@ -161,29 +161,32 @@ nav ul li a.ativo {
 
 /*-----------------------------------destaques------------------------------------------------------------------------*/
 .animais-destaque {
-  
 
- 
+
+
   margin: 90px 80px;
   gap: 300px;
 }
-.animais-destaque nav{
-  margin:20px 0;
+
+.animais-destaque nav {
+  margin: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.animais-destaque nav h2{
+
+.animais-destaque nav h2 {
   display: flex;
-  align-items:baseline;
+  align-items: baseline;
   justify-content: left;
   font-size: var(--text-h3);
   font-weight: bold;
 
 }
-.ver-todos a{
+
+.ver-todos a {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: left;
   font-size: var(--text-h3);
   color: var(--primaria);
@@ -193,3 +196,57 @@ nav ul li a.ativo {
 }
 
 /*------------------------------------animais de destaque------------------------------------------------------------------------*/
+
+.animais {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+
+}
+
+.cardsanimal {
+
+  border: 1px solid var(--secundaria);
+  border-radius: 10px;
+  background-color: var(--cards);
+  padding: 10px;
+  width: 306.859px;
+}
+
+.cardsanimal img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 9px;
+  object-position: center;
+}
+.cardsanimal h3 {
+  font-size: var(--text-h3);
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardsanimal p {
+  font-size: var(--text-h3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardsanimal button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: var(--primaria);
+  color: var(--texto-claro);
+  border: 1px solid var(--secundaria);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: var(--text-h3);
+  font-weight: bold;
+  cursor: pointer;
+}
