@@ -1,93 +1,137 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+@import '../styles/global.css';
+@import '../styles/styleguide.css';
 
 body {
-    background-color: #111622;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
+    background-color: var(--fundo);
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteiner {
+    margin: 0 80px;
 }
 
 
-.browser-container {
-    width: 100%;
-    max-width: 1000px;
-    background-color: #edf4f2;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-}
 
 /* --- HEADER / NAVBAR --- */
 header {
-    background-color: #111622;
+    background-color: var(--secundaria);
+    width: 100%;
+    height: 80px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
-    color: white;
+    justify-content: space-between;
+}
+
+.logo-wrapper {
+    flex: 1;
+    margin-left: 80px;
+}
+
+.logo-wrapper a {
+    color: var(--texto-claro);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    letter-spacing: 1px;
+    width: 50px;
+    height: 50px;
+    margin-right: 29px;
 }
 
-.logo i {
-    color: #ff4081;
-    font-size: 1.3rem;
+.site-name {
+    display: inline;
+    font-size: var(--text-h3);
+    font-weight: bold;
+    width: 100%;
+}
+
+nav {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li a {
-    color: #b0bec5;
+    color: var(--texto-claro);
     text-decoration: none;
-    font-size: 0.85rem;
-    transition: color 0.3s;
+    font-size: var(--text-h3);
+    font-weight: bold;
 }
 
-nav ul li a:hover, nav ul li a.active {
-    color: white;
+nav ul li a.ativo {
+    border-bottom: 2px solid var(--primaria);
+    padding-bottom: 4px;
 }
 
-.search-icon-btn {
-    color: white;
+nav button {
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.search-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 80px;
+}
+
+input {
+    border-radius: 7px;
+    border: 1px solid var(--primaria);
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+input::placeholder {
+    color: var(--texto-claro);
+    font-size: var(--text-h3);
+    padding-left: 10px;
 }
 
 /* --- BANNER ROSA --- */
-.hero-banner {
-    background-color: #ec407a;
-    color: white;
-    padding: 25px 40px;
+.center-content {
+    margin: 0 80px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
-.hero-banner i {
-    font-size: 2.5rem;
+.hero-banner {
+    background-color: #ec407a;
+    color: var(--texto-claro);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 30px;
 }
 
 .hero-content h1 {
-    font-size: 1.6rem;
-    margin-bottom: 5px;
+    font-size: var(--text-h2);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero-content p {
@@ -95,10 +139,15 @@ nav ul li a:hover, nav ul li a.active {
     opacity: 0.9;
 }
 
-/* --- CONTEÚDO PRINCIPAL --- */
-main {
-    padding: 30px 40px;
+.hero-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
+
+/* --- CONTEÚDO PRINCIPAL --- */
+
 
 /* Filtros */
 .filter-bar {
@@ -154,7 +203,7 @@ main {
     border-radius: 12px;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .image-placeholder {
@@ -251,14 +300,17 @@ main {
     .filter-bar {
         grid-template-columns: 1fr;
     }
+
     .animals-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .footer-banner {
         flex-direction: column;
         gap: 15px;
         align-items: flex-start;
     }
+
     .btn-more {
         width: 100%;
     }
@@ -268,12 +320,14 @@ main {
     .animals-grid {
         grid-template-columns: 1fr;
     }
+
     header {
         flex-direction: column;
         gap: 15px;
     }
 }
-.Animais2{
+
+.Animais2 {
     width: 50px;
     height: 50px;
     margin-right: 29px;
