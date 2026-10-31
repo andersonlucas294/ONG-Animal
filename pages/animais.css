@@ -103,8 +103,8 @@ input {
 }
 
 input::placeholder {
-    color: var(--texto-claro);
-    font-size: var(--text-h3);
+    color: var(--secundaria);
+    font-size: var(--text-P);
     padding-left: 10px;
 }
 
@@ -151,12 +151,13 @@ input::placeholder {
 article {
     margin: 0 80px;
 }
+
 /* Filtros */
 .filter-bar {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 15px;
-    margin-bottom: 30px;
+    margin: 10px 80px;
 }
 
 .search-wrapper {
@@ -169,25 +170,28 @@ article {
     width: 100%;
     padding: 10px 15px;
     padding-right: 40px;
-    border: 1px solid #b2dfdb;
+    border: 1px solid var(--secundaria);
     border-radius: 6px;
     font-size: 0.9rem;
     outline: none;
+}.search-wrapper input::placeholder {
+    color: var(--secundaria);
+    font-size: 0.9rem;
 }
 
 .search-wrapper i {
     position: absolute;
     right: 15px;
-    color: #757575;
+    color: var(--secundaria);
 }
 
 .filter-bar select {
     padding: 10px 15px;
-    border: 1px solid #b2dfdb;
+    border: 1px solid var(--secundaria);
     border-radius: 6px;
-    background-color: white;
+    background-color: #fff;
     font-size: 0.9rem;
-    color: #424242;
+    color: var(--secundaria);
     outline: none;
     cursor: pointer;
 }
@@ -197,66 +201,67 @@ article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    margin-bottom: 40px;
+    margin: 90px 80px;
 }
 
 .animais {
-  display: flex;
-  flex-direction: row;
-  gap: 17px;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
 }
 
 /* ── cards ── */
 .cardsanimal {
-  border: 1px solid var(--secundaria);
-  border-radius: 10px;
-  background-color: var(--cards);
-  padding: 10px;
-  width: 306.859px;
+    border: 1px solid var(--secundaria);
+    border-radius: 10px;
+    background-color: var(--cards);
+    padding: 10px;
+   
 }
 
 .btn-adopt:hover {
     background-color: var(--primaria);
 }
+
 .cardsanimal img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  object-position: center;
-  margin-bottom: 15px;
-  border-radius: 9px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 15px;
+    border-radius: 9px;
 }
 
 .cardsanimal h3 {
-  font-size: var(--text-h3);
-  font-weight: bold;
-  margin-bottom: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    font-size: var(--text-h3);
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cardsanimal p {
-  font-size: var(--text-h3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    font-size: var(--text-h3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cardsanimal button {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  background-color: var(--primaria);
-  color: var(--texto-claro);
-  border: 1px solid var(--secundaria);
-  border-radius: 10px;
-  padding: 10px 20px;
-  font-size: var(--text-h3);
-  font-weight: bold;
-  cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: var(--primaria);
+    color: var(--texto-claro);
+    border: 1px solid var(--secundaria);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: var(--text-h3);
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* --- FOOTER / AVISO --- */
@@ -266,13 +271,14 @@ article {
 
 aside {
     background-color: var(--cards);
-    width: 100%;
     height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 53px;
     box-sizing: border-box;
+    margin: 0 80px;
+    width: calc(100% - 160px); 
 }
 
 aside h2 {
@@ -313,6 +319,9 @@ aside button {
     font-size: var(--text-h3);
     font-weight: bold;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
 }
 
 footer {
