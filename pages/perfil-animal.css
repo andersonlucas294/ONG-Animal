@@ -221,6 +221,7 @@ main {
 }
 
 .pill {
+    border: 1px solid var(--secundaria);
     margin-right: 10px;
 }
 
@@ -281,6 +282,7 @@ main {
 
 .adopt-card button {
     border-radius: 15px;
+    border: 1px solid var(--secundaria);
     height: 40px;
     font-size: var(--text-h3);
     font-weight: bold;
