@@ -35,9 +35,9 @@ Confira as contribuições de cada integrante no projeto.
 | Foto | Nome | GitHub | Função / Contribuição |
 | :---: | :--- | :--- | :--- |
 | <img src="https://wsrv.nl/?url=https://github.com/MateusPires11.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Mateus De Oliveira Pires** | [@MateusPires11](https://github.com/MateusPires11) | Scrum Master / Dev Frontend |
-| <img src="https://wsrv.nl/?url=https://github.com/andersonlucas294.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Anderson Lucas** | [@andersonlucas294](https://github.com/andersonlucas294) | Desenvolvedor Lógica/JS |
-| <img src="https://wsrv.nl/?url=https://github.com/LuisHenrique676.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Luis Henrique** | [@LuisHenrique676](https://github.com/LuisHenrique676) | Designer UI/UX |
-| <img src="https://wsrv.nl/?url=https://github.com/murillobfranca10.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Murillo Franca** | [@murillobfranca10](https://github.com/murillobfranca10) | Infraestrutura e Redes |
-| <img src="https://wsrv.nl/?url=https://github.com/raphael2222226869.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Rafa Amorim** | [@raphael2222226869](https://github.com/raphael2222226869) | QA / Testes: testa o site |
+| <img src="https://wsrv.nl/?url=https://github.com/andersonlucas294.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Anderson Lucas** | [@andersonlucas294](https://github.com/andersonlucas294) | Dev Frontend |
+| <img src="https://wsrv.nl/?url=https://github.com/LuisHenrique676.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Luis Henrique** | [@LuisHenrique676](https://github.com/LuisHenrique676) | Dev Frontend |
+| <img src="https://wsrv.nl/?url=https://github.com/murillobfranca10.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Murillo Franca** | [@murillobfranca10](https://github.com/murillobfranca10) | Apresentador |
+| <img src="https://wsrv.nl/?url=https://github.com/raphael2222226869.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Rafa Amorim** | [@raphael2222226869](https://github.com/raphael2222226869) | Apresentador |
 
 
