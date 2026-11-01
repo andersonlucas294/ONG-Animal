@@ -300,6 +300,95 @@ main {
     font-size: var(--text-P);
 }
 
+
+
+
+.description-card{
+    margin-top: 20px;
+   display: grid;
+   grid-template-columns: 65%  30%;
+   gap: 55px;
+}
+.description{
+    background-color: var(--cards);
+    border-radius: 15px;
+    border: 1px solid var(--secundaria);
+    padding: 20px;
+
+}
+.description h2{
+    font-size: var(--text-h3);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.description p{
+    font-size: var(--text-P);
+    font-weight: 400;
+    line-height: 1;
+}
+
+.health-info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: var(--cards);
+    border-radius: 15px;
+    border: 1px solid var(--secundaria);
+    padding: 20px;
+}
+.health-info h2{
+    font-size: var(--text-h3);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.health-info p{
+    font-size: var(--text-P);
+    font-weight: 400;
+    line-height: 1;
+}
+
+.details-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(--cards);
+    border-radius: 15px;
+    border: 1px solid var(--secundaria);
+    padding: 20px;
+    margin-top: 20px;
+}
+.detail{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.detail h3{
+    font-size: var(--text-P);
+    font-weight: bold;
+}
+.detail .value{
+    font-size: var(--text-P);
+    font-weight: 400;
+}
+.detail svg{
+    width: 30px;
+    height: 30px;
+    color: var(--primaria);
+}
+.border-right{
+    border-right: 1px solid var(--secundaria);
+}
+
+
+
+
+
+
+
+
+
 /* ── footer ── */
 footer {
     position: relative;
