@@ -99,7 +99,7 @@ function cardsanimal(animais) {
             <img src="${animais.imagem}">
             <h3>${animais.nome}</h3>
             <p>${animais.especie} ${animais.idade}</p>
-            <button>QUERO ADOTAR</button>
+            <a href="./perfil-animal.html"><button>QUERO ADOTAR</button></a>
         </div>    
     `
 }
