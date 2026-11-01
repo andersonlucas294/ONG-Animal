@@ -334,3 +334,70 @@ footer {
   width: 35px;
   height: 35px;
 }
+/* =========================================================
+   RESPONSIVO (cabeçalho, rodapé e margens — vale p/ todas as páginas)
+   ========================================================= */
+ 
+@media (max-width: 1200px) {
+    :root { --margem: 40px; }
+ 
+    .site-name,
+    nav ul li a { font-size: var(--text-body); }
+ 
+    nav ul { gap: 16px; }
+ 
+    input { width: 190px; }
+}
+ 
+@media (max-width: 1000px) {
+    header { padding: 12px 0; row-gap: 10px; }
+ 
+    header .logo-wrapper { flex: 0 0 100%; }
+ 
+    header nav {
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 12px;
+        margin: 0 var(--margem);
+    }
+ 
+    header .search-bar { flex: 1; min-width: 220px; margin-right: 0; }
+ 
+    header .search-bar input { flex: 1; width: auto; margin-right: 0; }
+ 
+    /* rodapé */
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 24px var(--margem);
+    }
+ 
+    footer .logo-wrapper { margin-left: 0; flex: none; }
+ 
+    .footer-nav {
+        flex: none;
+        position: static;
+        transform: none;
+    }
+ 
+    .footer-nav ul { justify-content: center; gap: 20px; }
+ 
+    .social-media { margin-right: 0; justify-content: center; }
+}
+ 
+@media (max-width: 700px) {
+    :root { --margem: 20px; }
+ 
+    header nav { flex-direction: column; align-items: stretch; }
+    header nav ul { justify-content: center; }
+    header .search-bar { min-width: 0; }
+ 
+    footer { margin-top: 50px; }
+}
+ 
+@media (max-width: 380px) {
+    .logo { width: 40px; height: 40px; margin-right: 12px; }
+    .site-name { font-size: var(--text-sm); }
+}
+ 

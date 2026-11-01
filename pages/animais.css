@@ -406,3 +406,41 @@ footer {
     height: 50px;
     margin-right: 29px;
 }
+/* =========================================================
+   RESPONSIVO (somente a página Animais)
+   ========================================================= */
+ 
+@media (max-width: 1000px) {
+    .animals-grid { grid-template-columns: repeat(2, 1fr); }
+ 
+    .filter-bar { grid-template-columns: 1fr 1fr 1fr; }
+    .search-wrapper { grid-column: 1 / -1; }
+ 
+    aside p br { display: none; }
+}
+ 
+@media (max-width: 700px) {
+    .hero-content h1 { font-size: var(--text-h3); }
+    .hero-content p { font-size: var(--text-sm); }
+    .center-content { gap: 16px; }
+ 
+    .filter-bar { grid-template-columns: 1fr; margin-top: 20px; }
+ 
+    .animals-grid {
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+ 
+    .cardsanimal img { height: 220px; }
+ 
+    aside {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+ 
+    .aside-text { margin-left: 0; }
+    .aside-left { align-items: flex-start; }
+    aside button { width: 100%; }
+}
