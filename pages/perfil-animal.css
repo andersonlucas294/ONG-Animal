@@ -129,8 +129,7 @@ main {
 
 .profile-layout {
     display: grid;
-    grid-template-columns: 500px 1fr auto;
-    grid-template-rows: auto;
+    grid-template-columns: 420px 1fr 280px;
     column-gap: 40px;
     align-items: start;
     width: 100%;
@@ -162,7 +161,7 @@ main {
 }
 
 .main-photo img {
-    
+
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -192,7 +191,7 @@ main {
 }
 
 .thumb img {
-    
+
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -214,8 +213,27 @@ main {
     font-size: var(--text-h1);
 }
 
+.pills {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+}
+
 .pill {
-    margin: 0 10px;
+    margin-right: 10px;
+}
+
+.pills span {
+    white-space: nowrap;
+    color: var(--secundaria);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: var(--text-P);
+    font-weight: 100;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
 }
 
 
@@ -230,7 +248,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 14px;
-   border: 1px solid var(--secundaria);
+    border: 1px solid var(--secundaria);
 }
 
 .adopt-title {
@@ -270,12 +288,14 @@ main {
 
 .action-button-contact-button {
     background-color: var(--primaria);
-    
+
 }
-.action-button-share-button{
+
+.action-button-share-button {
     background-color: #189D0E;
 }
-.responsible{
+
+.responsible {
     font-weight: 200;
     font-size: var(--text-P);
 }
